@@ -1,7 +1,7 @@
 ﻿using System;
 namespace TechJobsOOAutoGraded6
 {
-	public class Employer
+	public class Employer : JobField
 	{
         public int Id { get; }
         private static int nextId = 1;
