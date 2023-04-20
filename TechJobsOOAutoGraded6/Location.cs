@@ -8,12 +8,6 @@ namespace TechJobsOOAutoGraded6
         {
         }
 
-        public override bool Equals(object obj)
-        {
-            return obj is Location location &&
-                   Id == location.Id;
-        }
-
     }
 }
 
